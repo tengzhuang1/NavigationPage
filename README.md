@@ -1,27 +1,26 @@
 # NavigationPage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
+对象导航菜单页面
 
-## Development server
+## 使用方式
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+在TOC Editor中添加导航菜单页面并根据实际需求填写对象类名称参数
 
-## Code scaffolding
+- 页面地址: ../Solutions/NavigationPage/index.html
+- 参数名称: itemtype
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![](./screenshots/使用方式.png)
 
-## Build
+## 菜单配置
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- 在全局展示设置中配置通用菜单
 
-## Running unit tests
+![](./screenshots/Global.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- 在对象类客户端样式中配置自定义菜单
 
-## Running end-to-end tests
+![](./screenshots/ClientStyle.png)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 效果展示
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![](./screenshots/效果.png)
