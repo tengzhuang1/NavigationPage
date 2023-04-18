@@ -1,0 +1,18 @@
+.navigation-page{
+    display: block;
+    flex-basis: 0px;
+    overflow: auto;
+    flex-grow: 1;
+    background-color: #ddd;
+    height: 100%;
+}
+
+.navigation-page-container{
+    max-width: 1048px;
+    padding: 44px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,calc(var(--tile-image-size) + var(--tile-button-padding) * 2));
+    grid-gap: 32px;
+    justify-content: center
+}

@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --tile-button-padding: 20px;
+    --tile-image-size: 4rem
+}
+
+body{
+    margin: 0 0 0 0;
+}
+
+navigation-page{
+    display: block;
+    height: calc(100vh);
+}

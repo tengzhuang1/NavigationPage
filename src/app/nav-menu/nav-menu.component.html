@@ -1,0 +1,8 @@
+<div class="navigation-menu">
+  <button class="navigation-menu-button" [disabled]="options.disabled" (click)="onButtonClick($event)">
+    <img class="navigation-menu-button-image" [src]="iconUrl" draggable="false" />
+  </button>
+  <div class="navigation-menu-button-label">
+    {{options.label}}
+  </div>
+</div>
